@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		A6B210811E3BE4E400314F5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B210801E3BE4E400314F5A /* AppDelegate.swift */; };
-		A6B210831E3BE4E400314F5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B210821E3BE4E400314F5A /* ViewController.swift */; };
-		A6B210861E3BE4E400314F5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B210841E3BE4E400314F5A /* Main.storyboard */; };
 		A6B210881E3BE4E400314F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B210871E3BE4E400314F5A /* Assets.xcassets */; };
 		A6B2108B1E3BE4E400314F5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B210891E3BE4E400314F5A /* LaunchScreen.storyboard */; };
+		A6B210931E3BE55600314F5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B210921E3BE55600314F5A /* Main.storyboard */; };
+		A6B210981E3BE63C00314F5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B210971E3BE63C00314F5A /* ViewController.swift */; };
+		A6B2109A1E3BE6D300314F5A /* PopupListControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B210991E3BE6D300314F5A /* PopupListControl.swift */; };
+		A6B2109D1E3BE73200314F5A /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B2109B1E3BE73200314F5A /* PopupView.swift */; };
+		A6B2109E1E3BE73200314F5A /* PopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B2109C1E3BE73200314F5A /* PopupView.xib */; };
+		A6B210A51E3BE74A00314F5A /* ModularTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B2109F1E3BE74A00314F5A /* ModularTableView.swift */; };
+		A6B210A61E3BE74A00314F5A /* ModularTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B210A01E3BE74A00314F5A /* ModularTVCell.swift */; };
+		A6B210A71E3BE74A00314F5A /* ModularTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B210A11E3BE74A00314F5A /* ModularTVCell.xib */; };
+		A6B210A81E3BE74A00314F5A /* ModularTVCHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B210A21E3BE74A00314F5A /* ModularTVCHeader.swift */; };
+		A6B210A91E3BE74A00314F5A /* ModularTVCHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B210A31E3BE74A00314F5A /* ModularTVCHeader.xib */; };
+		A6B210AA1E3BE74A00314F5A /* ModularTVDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B210A41E3BE74A00314F5A /* ModularTVDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A6B2107D1E3BE4E400314F5A /* MRTablePopUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRTablePopUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B210801E3BE4E400314F5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6B210821E3BE4E400314F5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A6B210851E3BE4E400314F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6B210871E3BE4E400314F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6B2108A1E3BE4E400314F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6B2108C1E3BE4E400314F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B210921E3BE55600314F5A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A6B210971E3BE63C00314F5A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6B210991E3BE6D300314F5A /* PopupListControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupListControl.swift; sourceTree = "<group>"; };
+		A6B2109B1E3BE73200314F5A /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		A6B2109C1E3BE73200314F5A /* PopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupView.xib; sourceTree = "<group>"; };
+		A6B2109F1E3BE74A00314F5A /* ModularTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModularTableView.swift; sourceTree = "<group>"; };
+		A6B210A01E3BE74A00314F5A /* ModularTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModularTVCell.swift; sourceTree = "<group>"; };
+		A6B210A11E3BE74A00314F5A /* ModularTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModularTVCell.xib; sourceTree = "<group>"; };
+		A6B210A21E3BE74A00314F5A /* ModularTVCHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModularTVCHeader.swift; sourceTree = "<group>"; };
+		A6B210A31E3BE74A00314F5A /* ModularTVCHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModularTVCHeader.xib; sourceTree = "<group>"; };
+		A6B210A41E3BE74A00314F5A /* ModularTVDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModularTVDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,87 @@
 		A6B2107F1E3BE4E400314F5A /* MRTablePopUp */ = {
 			isa = PBXGroup;
 			children = (
+				A6B210961E3BE63300314F5A /* ViewController */,
+				A6B210941E3BE61000314F5A /* UI */,
+				A6B210951E3BE61F00314F5A /* TableView */,
 				A6B210801E3BE4E400314F5A /* AppDelegate.swift */,
-				A6B210821E3BE4E400314F5A /* ViewController.swift */,
-				A6B210841E3BE4E400314F5A /* Main.storyboard */,
-				A6B210871E3BE4E400314F5A /* Assets.xcassets */,
-				A6B210891E3BE4E400314F5A /* LaunchScreen.storyboard */,
 				A6B2108C1E3BE4E400314F5A /* Info.plist */,
 			);
 			path = MRTablePopUp;
+			sourceTree = "<group>";
+		};
+		A6B210941E3BE61000314F5A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A6B210871E3BE4E400314F5A /* Assets.xcassets */,
+				A6B210921E3BE55600314F5A /* Main.storyboard */,
+				A6B210891E3BE4E400314F5A /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		A6B210951E3BE61F00314F5A /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				A6B210991E3BE6D300314F5A /* PopupListControl.swift */,
+				A6B210AF1E3BE9ED00314F5A /* Data Source */,
+				A6B210AE1E3BE9DF00314F5A /* Table View */,
+				A6B210AD1E3BE9C900314F5A /* Popup View */,
+				A6B210AC1E3BE9AC00314F5A /* Table View Header */,
+				A6B210AB1E3BE99F00314F5A /* Table View Cell */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		A6B210961E3BE63300314F5A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A6B210971E3BE63C00314F5A /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		A6B210AB1E3BE99F00314F5A /* Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A6B210A01E3BE74A00314F5A /* ModularTVCell.swift */,
+				A6B210A11E3BE74A00314F5A /* ModularTVCell.xib */,
+			);
+			name = "Table View Cell";
+			sourceTree = "<group>";
+		};
+		A6B210AC1E3BE9AC00314F5A /* Table View Header */ = {
+			isa = PBXGroup;
+			children = (
+				A6B210A21E3BE74A00314F5A /* ModularTVCHeader.swift */,
+				A6B210A31E3BE74A00314F5A /* ModularTVCHeader.xib */,
+			);
+			name = "Table View Header";
+			sourceTree = "<group>";
+		};
+		A6B210AD1E3BE9C900314F5A /* Popup View */ = {
+			isa = PBXGroup;
+			children = (
+				A6B2109B1E3BE73200314F5A /* PopupView.swift */,
+				A6B2109C1E3BE73200314F5A /* PopupView.xib */,
+			);
+			name = "Popup View";
+			sourceTree = "<group>";
+		};
+		A6B210AE1E3BE9DF00314F5A /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				A6B2109F1E3BE74A00314F5A /* ModularTableView.swift */,
+			);
+			name = "Table View";
+			sourceTree = "<group>";
+		};
+		A6B210AF1E3BE9ED00314F5A /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				A6B210A41E3BE74A00314F5A /* ModularTVDataSource.swift */,
+			);
+			name = "Data Source";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +215,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B210931E3BE55600314F5A /* Main.storyboard in Resources */,
+				A6B2109E1E3BE73200314F5A /* PopupView.xib in Resources */,
+				A6B210A71E3BE74A00314F5A /* ModularTVCell.xib in Resources */,
+				A6B210A91E3BE74A00314F5A /* ModularTVCHeader.xib in Resources */,
 				A6B2108B1E3BE4E400314F5A /* LaunchScreen.storyboard in Resources */,
 				A6B210881E3BE4E400314F5A /* Assets.xcassets in Resources */,
-				A6B210861E3BE4E400314F5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +231,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6B210831E3BE4E400314F5A /* ViewController.swift in Sources */,
+				A6B210A61E3BE74A00314F5A /* ModularTVCell.swift in Sources */,
+				A6B2109A1E3BE6D300314F5A /* PopupListControl.swift in Sources */,
+				A6B2109D1E3BE73200314F5A /* PopupView.swift in Sources */,
+				A6B210981E3BE63C00314F5A /* ViewController.swift in Sources */,
+				A6B210A81E3BE74A00314F5A /* ModularTVCHeader.swift in Sources */,
+				A6B210AA1E3BE74A00314F5A /* ModularTVDataSource.swift in Sources */,
 				A6B210811E3BE4E400314F5A /* AppDelegate.swift in Sources */,
+				A6B210A51E3BE74A00314F5A /* ModularTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A6B210841E3BE4E400314F5A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A6B210851E3BE4E400314F5A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A6B210891E3BE4E400314F5A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
